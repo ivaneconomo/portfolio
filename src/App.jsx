@@ -1,3 +1,4 @@
+import Banner from './components/Banner/Banner';
 import Navbar from './components/Navbar/Navbar';
 import { ThemeProvider } from './context/ThemeContext';
 
@@ -8,6 +9,7 @@ function App() {
         <Navbar />
       </ThemeProvider>
       <main className='min-h-screen bg-slate-200 text-gray-950 dark:bg-slate-900 dark:text-gray-50 space-y-5'>
+        <Banner />
         <h1 className='m-0 text-5xl'>Main Content</h1>
         <p className='text-base textgray-950 dark:text-gray-50'>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ab

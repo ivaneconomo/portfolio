@@ -1,11 +1,14 @@
-import { ToggleThemeMoon, ToggleThemeSun } from '../../assets/icons/icons';
+import { ThemeSunIcon, ThemeMoonIcon } from '../../assets/icons/icons';
 import { useTheme } from '../../hooks/useTheme';
 
 const ToggleTheme = () => {
   const { isDark, toggleTheme } = useTheme();
 
   return (
-    <label htmlFor='dark-toggle' className='flex cursor-pointer justify-end'>
+    <label
+      htmlFor='dark-toggle'
+      className='ml-auto flex w-fit cursor-pointer md:m-0'
+    >
       <div className='relative'>
         <input
           type='checkbox'
@@ -21,7 +24,7 @@ const ToggleTheme = () => {
             isDark ? 'translate-x-full' : 'translate-x-0'
           }`}
         >
-          {isDark ? <ToggleThemeSun /> : <ToggleThemeMoon />}
+          {isDark ? <ThemeSunIcon /> : <ThemeMoonIcon />}
         </div>
       </div>
     </label>
