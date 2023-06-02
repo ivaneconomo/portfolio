@@ -7,8 +7,8 @@ import yo_reduced from '../../assets/img/yo_reduced.jpg';
 
 const Banner = () => {
   return (
-    <section className='flex items-center justify-evenly py-10'>
-      <div className='flex flex-col p-4'>
+    <section className='flex items-center py-10 sm:justify-evenly'>
+      <div className='flex flex-col'>
         <h1 className='text-2xl font-bold text-gray-950 dark:text-gray-50'>
           ¡Hola! Soy
           <span className='mb-2 mt-4 block bg-gradient-to-r from-sky-500 to-pistachio-500 bg-clip-text text-4xl font-bold text-transparent'>
@@ -40,12 +40,17 @@ const Banner = () => {
         </div>
       </div>
 
-      <img
-        className='hidden rounded-full border-2 object-cover sm:flex'
-        src={yo_reduced}
-        alt='Foto de Iván'
-        style={{ width: '110px', height: '110px' }}
-      />
+      <div
+        style={{ width: '180px', height: '180px' }}
+        className='hidden rounded-full bg-gradient-to-tr from-sky-500 to-pistachio-500 sm:flex shadow-2xl shadow-pistachio-500/50'
+      >
+        <img
+          className='rounded-full border-4 border-transparent object-cover shadow-xl shadow-sky-400/50'
+          src={yo_reduced}
+          alt='Foto de Iván'
+          style={{ width: '180px', height: '180px' }}
+        />
+      </div>
     </section>
   );
 };
