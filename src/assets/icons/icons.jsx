@@ -55,7 +55,7 @@ export const ThemeSunIcon = () => {
 export const LinkedInIcon = () => {
   return (
     <svg
-      className='h-6 w-6 fill-gray-950/50 hover:fill-[#0A66C2] dark:fill-gray-50/50 dark:hover:fill-[#0A66C2]'
+      className='h-6 w-6 fill-gray-950/50 transition hover:fill-[#0A66C2] dark:fill-gray-50/50 dark:hover:fill-[#0A66C2]'
       role='img'
       viewBox='0 0 24 24'
       xmlns='http://www.w3.org/2000/svg'
@@ -69,7 +69,7 @@ export const LinkedInIcon = () => {
 export const GitHubIcon = () => {
   return (
     <svg
-      className='h-6 w-6 fill-gray-950/50 hover:fill-[#181717] dark:fill-gray-50/50 dark:hover:fill-gray-50'
+      className='h-6 w-6 fill-gray-950/50 transition hover:fill-[#181717] dark:fill-gray-50/50 dark:hover:fill-gray-50'
       role='img'
       viewBox='0 0 24 24'
       xmlns='http://www.w3.org/2000/svg'

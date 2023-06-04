@@ -3,6 +3,10 @@ export default {
   darkMode: 'class',
   content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
+    screens: {
+      'xsm': '412px',
+      // => @media (min-width: 412px) { ... }
+    },
     extend: {
       colors: {
         pistachio: {

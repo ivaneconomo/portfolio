@@ -1,3 +1,4 @@
+import AppViewport from './components/AppViewport/AppViewport';
 import Banner from './components/Banner/Banner';
 import Navbar from './components/Navbar/Navbar';
 import { ThemeProvider } from './context/ThemeContext';
@@ -6,48 +7,15 @@ function App() {
   return (
     <>
       <ThemeProvider>
-        <Navbar />
+        <header className='sm:px-16 sticky top-0 select-none bg-slate-50/70 p-4 backdrop-blur dark:bg-slate-950/70'>
+          <Navbar />
+        </header>
       </ThemeProvider>
-      <main className='min-h-screen bg-slate-200 text-gray-950 dark:bg-slate-900 dark:text-gray-50 space-y-5 p-4'>
+      <main className='sm:px-16 min-h-screen bg-slate-200 px-4 text-gray-950 dark:bg-slate-900 dark:text-gray-50'>
+        <AppViewport />
         <Banner />
-        <h1 className='m-0 text-5xl'>Main Content</h1>
-        <p className='text-base textgray-950 dark:text-gray-50'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ab
-          consequatur hic sit soluta blanditiis eius. Explicabo consectetur
-          itaque ipsa quia optio, hic totam eaque, dolore deleniti rem natus
-          aliquid.
-        </p>
-        <p className='text-base text-gray-950 dark:text-gray-50'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ab
-          consequatur hic sit soluta blanditiis eius. Explicabo consectetur
-          itaque ipsa quia optio, hic totam eaque, dolore deleniti rem natus
-          aliquid.
-        </p>
-        <p className='text-base text-gray-950 dark:text-gray-50'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ab
-          consequatur hic sit soluta blanditiis eius. Explicabo consectetur
-          itaque ipsa quia optio, hic totam eaque, dolore deleniti rem natus
-          aliquid.
-        </p>
-        <p className='text-base text-gray-950 dark:text-gray-50'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ab
-          consequatur hic sit soluta blanditiis eius. Explicabo consectetur
-          itaque ipsa quia optio, hic totam eaque, dolore deleniti rem natus
-          aliquid.
-        </p>
-        <p className='text-base text-gray-950 dark:text-gray-50'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ab
-          consequatur hic sit soluta blanditiis eius. Explicabo consectetur
-          itaque ipsa quia optio, hic totam eaque, dolore deleniti rem natus
-          aliquid.
-        </p>
-        <p className='text-base text-gray-950 dark:text-gray-50'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ab
-          consequatur hic sit soluta blanditiis eius. Explicabo consectetur
-          itaque ipsa quia optio, hic totam eaque, dolore deleniti rem natus
-          aliquid.
-        </p>
-        <p className='text-base text-gray-950 dark:text-gray-50'>
+        <h1 className=''>Main Content</h1>
+        <p className='text-gray-950 dark:text-gray-50'>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ab
           consequatur hic sit soluta blanditiis eius. Explicabo consectetur
           itaque ipsa quia optio, hic totam eaque, dolore deleniti rem natus
