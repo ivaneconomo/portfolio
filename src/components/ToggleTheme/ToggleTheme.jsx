@@ -1,4 +1,4 @@
-import { ThemeSunIcon, ThemeMoonIcon } from '../../assets/icons/icons';
+import { ThemeSunIcon, ThemeMoonIcon } from '../../assets/svg/icons';
 import { useTheme } from '../../hooks/useTheme';
 
 const ToggleTheme = () => {

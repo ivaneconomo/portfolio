@@ -4,12 +4,8 @@ import BarsMenu from '../BarsMenu/BarsMenu';
 const Navbar = () => {
   return (
     <>
-      <div>
-        <NavMenu />
-      </div>
-      <div className='md:hidden'>
-        <BarsMenu />
-      </div>
+      <NavMenu />
+      <BarsMenu />
     </>
   );
 };

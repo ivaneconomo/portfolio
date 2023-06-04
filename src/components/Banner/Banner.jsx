@@ -2,13 +2,12 @@ import {
   DownloadCVIcon,
   GitHubIcon,
   LinkedInIcon,
-} from '../../assets/icons/icons';
-import yo_reduced from '../../assets/img/yo_reduced.jpg';
+} from '../../assets/svg/icons';
 
 const Banner = () => {
   return (
-    <section className='flex flex-col space-y-6 py-12'>
-      <div className='flex justify-between'>
+    <section className='container flex flex-col space-y-6 py-12'>
+      <div className=''>
         <div className='space-y-2'>
           <span className='text-2xl font-bold text-gray-950 dark:text-gray-50'>
             ¡Hola! Soy
@@ -20,17 +19,6 @@ const Banner = () => {
             Desarrollador web fullstack
           </h2>
         </div>
-        <div
-          style={{ width: '115px', height: '115px' }}
-          className='hidden rounded-full bg-gradient-to-tr from-sky-500 to-pistachio-500 p-0 shadow-xl shadow-pistachio-500/50 dark:shadow-pistachio-500/30 xsm:flex'
-        >
-          <img
-            className='rounded-full border-4 border-transparent object-cover shadow-lg shadow-sky-400/50 dark:shadow-sky-400/30'
-            src={yo_reduced}
-            alt='Foto de Iván'
-            style={{ width: '115px', height: '115px' }}
-          />
-        </div>
       </div>
 
       <div className='flex items-center space-x-5'>
@@ -39,7 +27,7 @@ const Banner = () => {
           <span className='text-gray-950'>Descargar CV</span>
         </button>
 
-        <ul className='flex space-x-5'>
+        <ul className='flex items-center space-x-5'>
           <li>
             <a href='/#'>
               <LinkedInIcon />

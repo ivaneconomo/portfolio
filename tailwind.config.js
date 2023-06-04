@@ -1,11 +1,24 @@
 /** @type {import('tailwindcss').Config} */
+// eslint-disable-next-line no-undef
+const defaultTheme = require('tailwindcss/defaultTheme');
 export default {
   darkMode: 'class',
   content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
     screens: {
-      'xsm': '412px',
-      // => @media (min-width: 412px) { ... }
+      'xs': '412px',
+      ...defaultTheme.screens,
+    },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        'xs': '1.5rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem',
+      },
     },
     extend: {
       colors: {

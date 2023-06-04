@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BarsMenuIcon } from '../../assets/icons/icons';
+import { BarsMenuIcon } from '../../assets/svg/icons';
 import ToggleTheme from '../ToggleTheme/ToggleTheme';
 
 const BarsMenu = () => {
@@ -11,7 +11,7 @@ const BarsMenu = () => {
 
   return (
     <>
-      <div className='flex items-center justify-between'>
+      <div className='container flex items-center justify-between md:hidden'>
         <span className='font-bold text-gray-950 dark:text-gray-50'>
           IVANECO
         </span>
@@ -27,7 +27,7 @@ const BarsMenu = () => {
         </label>
       </div>
       {isOpen && (
-        <nav className='flex flex-col items-end justify-center'>
+        <nav className='container flex flex-col items-end justify-center'>
           <ul className='my-4 max-w-fit space-y-4 text-end text-gray-950 dark:text-gray-50'>
             <li className='transition hover:text-gray-600 dark:hover:text-gray-400'>
               <a href='/#'>Formación</a>
