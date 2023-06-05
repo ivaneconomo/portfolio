@@ -1,5 +1,5 @@
-import { ThemeSunIcon, ThemeMoonIcon } from '../../assets/svg/icons';
-import { useTheme } from '../../hooks/useTheme';
+import { ThemeSunIcon, ThemeMoonIcon } from '../../../assets/svg/icons';
+import { useTheme } from '../../../hooks/useTheme';
 
 const ToggleTheme = () => {
   const { isDark, toggleTheme } = useTheme();

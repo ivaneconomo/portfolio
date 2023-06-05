@@ -18,7 +18,7 @@ const AppViewport = () => {
   }, []);
 
   return (
-    <div className='fixed bottom-4 left-4 right-4 mx-auto flex justify-center space-x-3 rounded bg-violet-600/50 p-2 font-bold backdrop-blur-sm'>
+    <div className='fixed bottom-3 left-4 right-4 mx-auto flex justify-center space-x-3 rounded bg-violet-600/50 p-2 font-bold backdrop-blur-sm'>
       <div>Width: {viewportWidth}px</div>
       <div>Height: {viewportHeight}px</div>
     </div>

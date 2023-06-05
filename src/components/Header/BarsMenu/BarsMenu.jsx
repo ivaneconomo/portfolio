@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BarsMenuIcon } from '../../assets/svg/icons';
+import { BarsMenuIcon } from '../../../assets/svg/icons';
 import ToggleTheme from '../ToggleTheme/ToggleTheme';
 
 const BarsMenu = () => {

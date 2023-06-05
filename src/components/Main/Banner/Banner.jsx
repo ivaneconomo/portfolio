@@ -2,12 +2,12 @@ import {
   DownloadCVIcon,
   GitHubIcon,
   LinkedInIcon,
-} from '../../assets/svg/icons';
+} from '../../../assets/svg/icons';
 
 const Banner = () => {
   return (
     <section className='container flex flex-col space-y-6 py-12'>
-      <div className=''>
+      <div>
         <div className='space-y-2'>
           <span className='text-2xl font-bold text-gray-950 dark:text-gray-50'>
             ¡Hola! Soy
