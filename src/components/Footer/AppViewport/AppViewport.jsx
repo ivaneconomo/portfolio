@@ -18,9 +18,13 @@ const AppViewport = () => {
   }, []);
 
   return (
-    <div className='fixed bottom-3 left-4 right-4 mx-auto flex justify-center space-x-3 rounded bg-violet-600/50 p-2 font-bold backdrop-blur-sm'>
-      <div>Width: {viewportWidth}px</div>
-      <div>Height: {viewportHeight}px</div>
+    <div className='fixed bottom-3 left-4 right-4 mx-auto flex flex-col justify-center space-x-3 space-y-2 rounded bg-fuchsia-500/50 p-2 text-center backdrop-blur-sm'>
+      <span>Viewport Size</span>
+      <div className='flex justify-center'>
+        <div className='mr-2 border-r pr-2'>Width: {viewportWidth}px</div>
+        <div>Height: {viewportHeight}px</div>
+      </div>
+      <span className='font-bold'>Sitio web en preparación.</span>
     </div>
   );
 };
