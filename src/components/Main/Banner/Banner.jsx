@@ -6,7 +6,7 @@ import {
 
 const Banner = () => {
   return (
-    <section className='container flex flex-col space-y-6 py-12'>
+    <section className='container flex flex-col space-y-6'>
       <div>
         <div className='space-y-2'>
           <span className='text-2xl font-bold text-gray-950 dark:text-gray-50'>
@@ -22,7 +22,7 @@ const Banner = () => {
       </div>
 
       <div className='flex items-center space-x-5'>
-        <button className='flex items-center space-x-1 rounded bg-pistachio-500 px-2 py-0.5 transition hover:bg-pistachio-600 active:ring-1 dark:hover:bg-pistachio-400'>
+        <button className='flex items-center space-x-1 rounded bg-pistachio-500 px-2 py-0.5 transition hover:bg-pistachio-600 active:ring-1 dark:hover:bg-pistachio-300'>
           <DownloadCVIcon />
           <span className='text-gray-950'>Descargar CV</span>
         </button>

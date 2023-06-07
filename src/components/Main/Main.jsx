@@ -4,7 +4,7 @@ import Projects from './Projects/Projects';
 
 const Main = () => {
   return (
-    <main className='min-h-screen bg-slate-200 text-gray-950 dark:bg-slate-900 dark:text-gray-50'>
+    <main className='min-h-screen space-y-16 bg-slate-200 py-12 text-gray-950 dark:bg-slate-900 dark:text-gray-50'>
       <Banner />
       <TrainingAsDev />
       <Projects />
