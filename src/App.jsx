@@ -1,6 +1,6 @@
-import Header from './components/Header/Header';
-import Main from './components/Main/Main';
-import Footer from './components/Footer/Footer';
+import Footer from './components/organisms/Footer/Footer';
+import Header from './components/organisms/Header/Header';
+import HomePage from './components/pages/HomePage';
 import { ThemeProvider } from './context/ThemeContext';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <ThemeProvider>
         <Header />
       </ThemeProvider>
-      <Main />
+      <HomePage />
       <Footer />
     </>
   );

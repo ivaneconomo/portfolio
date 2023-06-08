@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { BarsMenuIcon } from '../../../assets/svg/icons';
-import ToggleTheme from '../ToggleTheme/ToggleTheme';
+import ToggleTheme from '../../atoms/ToggleTheme/ToggleTheme';
 
 const BarsMenu = () => {
   const [isOpen, setIsOpen] = useState(false);

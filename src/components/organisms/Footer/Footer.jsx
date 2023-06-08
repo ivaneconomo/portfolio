@@ -1,4 +1,4 @@
-import AppViewport from './AppViewport/AppViewport';
+import AppViewport from '../../molecules/AppViewport/AppViewport';
 
 const Footer = () => {
   return (

@@ -1,5 +1,5 @@
-import NavMenu from '../Header/NavMenu/NavMenu';
-import BarsMenu from '../Header/BarsMenu/BarsMenu';
+import NavMenu from '../../molecules/NavMenu/NavMenu';
+import BarsMenu from '../../molecules/BarsMenu/BarsMenu';
 
 const Header = () => {
   return (

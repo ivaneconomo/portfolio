@@ -1,4 +1,4 @@
-import ToggleTheme from '../ToggleTheme/ToggleTheme';
+import ToggleTheme from '../../atoms/ToggleTheme/ToggleTheme';
 
 const NavMenu = () => {
   return (

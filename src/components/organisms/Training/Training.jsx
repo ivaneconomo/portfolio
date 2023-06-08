@@ -1,10 +1,10 @@
-const TrainingAsDev = () => {
+const Training = () => {
   return (
     <section className='container space-y-4'>
       <h2 className='text-xl font-bold text-gray-950/50 dark:text-gray-50/50'>
         Formación como desarrollador
       </h2>
-      <div className="space-y-2">
+      <div className='space-y-2'>
         <p className='text-gray-950 dark:text-gray-50'>
           Completé un bootcamp intensivo en desarrollo web (2022-2023).
         </p>
@@ -33,4 +33,4 @@ const TrainingAsDev = () => {
   );
 };
 
-export default TrainingAsDev;
+export default Training;
