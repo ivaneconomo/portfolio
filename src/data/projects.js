@@ -1,11 +1,13 @@
-import nova_tech_project from '../assets/img/nova_tech_project.png';
-import game_plus_project from '../assets/img/game_plus_project.png';
-import hyper_estrenos_project from '../assets/img/hyper_estrenos_project.png';
+import nova_tech_project from '../assets/img/nova_tech_project.jpg';
+import game_plus_project from '../assets/img/game_plus_project.jpg';
+import hyper_estrenos_project from '../assets/img/hyper_estrenos_project.jpg';
 
 const projects = [
   {
     id: 1,
     title: 'Nova Tech',
+    description:
+      'Creamos un eCommerce con el stack MERN, utilizando Axios para comunicación, Mongoose para la base de datos y JWT y Bcrypt para la seguridad.',
     imageSrc: nova_tech_project,
     techs: [
       {
@@ -36,6 +38,8 @@ const projects = [
   {
     id: 2,
     title: 'Game Plus',
+    description:
+      'En este proyecto JavaScript, aplicamos Local Storage para operaciones CRUD y ampliamos nuestra experiencia en metodologías ágiles.',
     imageSrc: game_plus_project,
     techs: [
       {
@@ -68,6 +72,8 @@ const projects = [
   {
     id: 3,
     title: 'Hyper Estrenos',
+    description:
+      'Mi primer desafío como desarrollador, teniendo en cuenta las buenas prácticas de la programación, y el diseño responsive.',
     imageSrc: hyper_estrenos_project,
     techs: [
       {

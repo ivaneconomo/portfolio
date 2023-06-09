@@ -1,7 +1,7 @@
 const Training = () => {
   return (
     <section className='container space-y-4'>
-      <h2 className='text-xl font-bold text-gray-950/50 dark:text-gray-50/50'>
+      <h2 className='text-2xl font-bold text-gray-950/60 dark:text-gray-50/60'>
         Formación como desarrollador
       </h2>
       <div className='space-y-2'>
