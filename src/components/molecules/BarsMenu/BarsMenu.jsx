@@ -27,7 +27,7 @@ const BarsMenu = () => {
         </label>
       </div>
       {isOpen && (
-        <nav className='container flex flex-col items-end justify-center'>
+        <nav className='container flex flex-col items-end justify-center md:hidden'>
           <ul className='my-4 max-w-fit space-y-4 text-end text-gray-950 dark:text-gray-50'>
             <li className='transition hover:text-gray-600 dark:hover:text-gray-400'>
               <a href='/#'>Formación</a>

@@ -1,6 +1,6 @@
 const Training = () => {
   return (
-    <section className='container space-y-4'>
+    <section className='container space-y-8'>
       <h2 className='text-2xl font-bold text-gray-950/60 dark:text-gray-50/60'>
         Formación como desarrollador
       </h2>
@@ -21,12 +21,12 @@ const Training = () => {
           .
         </p>
         <p className='text-gray-950 dark:text-gray-50'>
-          Además, adquirí experiencia en metodologías ágiles como Scrum y
-          desarrollé habilidades de trabajo en equipo.
-        </p>
-        <p className='text-gray-950 dark:text-gray-50'>
           Estos proyectos me permitieron aplicar de manera efectiva mis
           conocimientos y habilidades adquiridas en un entorno práctico.
+        </p>
+        <p className='text-gray-950 dark:text-gray-50'>
+          Además, adquirí experiencia en metodologías ágiles (SCRUM) y
+          desarrollé habilidades de trabajo en equipo.
         </p>
       </div>
     </section>

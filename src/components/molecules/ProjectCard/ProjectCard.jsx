@@ -11,10 +11,14 @@ const ProjectCard = ({
   websiteLink,
 }) => {
   return (
-    <article className='flex flex-col space-y-4 rounded bg-slate-50 pb-4 transition-all dark:border-slate-950/30 dark:bg-slate-950'>
+    <article className='flex flex-col space-y-4 rounded border border-slate-100/50 bg-slate-50 pb-4 transition-all dark:border-slate-900/50 dark:bg-slate-950'>
       <div className='relative rounded-t'>
-        <img className='rounded-t' src={imageSrc} alt={title} />
-        <div className='absolute inset-0 bottom-0 top-auto flex h-24 flex-col justify-end gap-2 bg-gradient-to-t from-slate-50 via-slate-50/80 dark:from-slate-950 dark:via-slate-950/80'>
+        <div className='relative'>
+          <img className='rounded-t' src={imageSrc} alt={title} />
+          <span className='botom-0 absolute inset-0 top-auto flex h-12 flex-col justify-end gap-2 bg-gradient-to-t from-slate-50 via-slate-50/60 dark:from-slate-950 dark:via-slate-950/60'></span>
+        </div>
+
+        <div className='space-y-4'>
           <h3 className='bg-gradient-to-r from-sky-500 to-pistachio-500 bg-clip-text px-4 text-2xl font-bold text-transparent'>
             {title}
           </h3>
@@ -26,7 +30,7 @@ const ProjectCard = ({
         </div>
       </div>
 
-      <div className='flex h-full flex-col justify-between space-y-4'>
+      <div className='flex h-full flex-col md:justify-end lg:justify-between space-y-4'>
         <p className='hidden px-4 lg:block'>{description}</p>
 
         <div className='space-x-4 px-4'>

@@ -19,7 +19,7 @@ const projects = [
       {
         id: 2,
         title: 'Express',
-        colors: 'bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-300',
+        colors: 'bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-300',
       },
       {
         id: 3,
