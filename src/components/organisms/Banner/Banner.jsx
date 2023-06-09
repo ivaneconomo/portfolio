@@ -2,7 +2,7 @@ import {
   DownloadCVIcon,
   GitHubIcon,
   LinkedInIcon,
-} from '../../../assets/svg/icons';
+} from '../../atoms/icons/icons';
 
 const Banner = () => {
   return (
