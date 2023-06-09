@@ -1,34 +1,95 @@
-import hyper_estrenos_project from '../assets/img/hyper_estrenos_project.png';
-import game_plus_project from '../assets/img/game_plus_project.png';
 import nova_tech_project from '../assets/img/nova_tech_project.png';
+import game_plus_project from '../assets/img/game_plus_project.png';
+import hyper_estrenos_project from '../assets/img/hyper_estrenos_project.png';
 
 const projects = [
   {
     id: 1,
-    title: 'Hyper Estrenos',
-    imageSrc: hyper_estrenos_project,
-    description:
-      'Mi primer desafío como desarrollador tuvo como objetivo aplicar nuestro conocimiento en HTML, CSS y Bootstrap5. Teniendo en cuenta las buenas prácticas de la programación, y el diseño responsive.',
-    githubLink: 'https://github.com/ivaneconomo/hyper-estrenos',
-    websiteLink: 'https://hyper-estrenos.netlify.app',
+    title: 'Nova Tech',
+    imageSrc: nova_tech_project,
+    techs: [
+      {
+        id: 1,
+        title: 'MongoDB',
+        colors:
+          'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300',
+      },
+      {
+        id: 2,
+        title: 'Express',
+        colors: 'bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-300',
+      },
+      {
+        id: 3,
+        title: 'React',
+        colors: 'bg-sky-100 text-sky-800 dark:bg-sky-900 dark:text-sky-300',
+      },
+      {
+        id: 4,
+        title: 'Node',
+        colors: 'bg-lime-100 text-lime-800 dark:bg-lime-900 dark:text-lime-300',
+      },
+    ],
+    githubLink: 'https://github.com/ivaneconomo/Nova-Tech-frontend',
+    websiteLink: 'https://nova-tech-technology.netlify.app',
   },
   {
     id: 2,
     title: 'Game Plus',
     imageSrc: game_plus_project,
-    description:
-      'En éste segundo proyecto implementamos JavaScript. Aplicamos lo aprendido sobre Local Storage y operaciones CRUD. Además seguimos ampliando la experiencia en metodologías ágiles, y el trabajo en equipo.',
+    techs: [
+      {
+        id: 1,
+        title: 'HTML',
+        colors:
+          'bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-300',
+      },
+      {
+        id: 2,
+        title: 'CSS',
+        colors: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300',
+      },
+      {
+        id: 3,
+        title: 'Bootstrap',
+        colors:
+          'bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300',
+      },
+      {
+        id: 4,
+        title: 'JavaScript',
+        colors:
+          'bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300',
+      },
+    ],
     githubLink: 'https://github.com/ivaneconomo/game-plus',
     websiteLink: 'https://game-plus.netlify.app',
   },
   {
     id: 3,
-    title: 'Nova Tech',
-    imageSrc: nova_tech_project,
-    description:
-      'Como proyecto final, diseñamos y producimos un eCommerce. En esta última etapa aplicamos todo lo que aprendimos sobre el Stack MERN, además de las herramientas complementarias.',
-    githubLink: 'https://github.com/ivaneconomo/Nova-Tech-frontend',
-    websiteLink: 'https://nova-tech-technology.netlify.app',
+    title: 'Hyper Estrenos',
+    imageSrc: hyper_estrenos_project,
+    techs: [
+      {
+        id: 1,
+        title: 'HTML',
+        colors:
+          'bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-300',
+      },
+      {
+        id: 2,
+        title: 'CSS',
+        colors: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300',
+      },
+      {
+        id: 3,
+        title: 'Bootstrap',
+        colors:
+          'bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300',
+      },
+    ],
+    githubLink: 'https://github.com/ivaneconomo/hyper-estrenos',
+    websiteLink: 'https://hyper-estrenos.netlify.app',
   },
 ];
 

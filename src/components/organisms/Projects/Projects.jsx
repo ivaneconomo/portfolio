@@ -8,7 +8,7 @@ const Projects = () => {
         Proyectos en los que participé
       </h2>
       <div className=''>
-        <div className='space-y-8 md:grid md:grid-cols-2 md:items-stretch md:gap-6 md:space-y-0'>
+        <div className='space-y-8 lg:grid lg:grid-cols-3 lg:items-stretch lg:gap-6 lg:space-y-0'>
           {projects.map((project) => (
             <ProjectCard key={project.id} {...project} />
           ))}

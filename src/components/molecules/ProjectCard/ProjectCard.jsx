@@ -1,27 +1,23 @@
 /* eslint-disable react/prop-types */
-import { GitHubIcon, WebIcon } from '../../atoms/icons/icons';
 
-const ProjectCard = ({
-  title,
-  imageSrc,
-  description,
-  githubLink,
-  websiteLink,
-}) => {
+import Badge from '../../atoms/Badge/Badge';
+
+const ProjectCard = ({ title, imageSrc, techs, githubLink, websiteLink }) => {
   return (
     <article className='flex flex-col justify-between gap-2 rounded bg-slate-50 pb-4 transition-all dark:border-slate-950/30 dark:bg-slate-950'>
-      <div className='rounded-t md:relative'>
+      <div className='relative rounded-t'>
         <img className='rounded-t' src={imageSrc} alt={title} />
-
-        <div className='bg-gradient-to-t from-slate-50 via-slate-50/80 dark:from-slate-950 dark:via-slate-950/80 md:absolute md:inset-0 md:bottom-0 md:top-auto md:flex md:h-24 md:items-end'>
-          <h3 className='bg-gradient-to-r from-yellow-500 to-red-500 bg-clip-text px-4 py-4 text-2xl font-extrabold text-transparent'>
+        <div className='absolute inset-0 bottom-0 top-auto flex h-20 items-end bg-gradient-to-t from-slate-50 via-slate-50/80 dark:from-slate-950 dark:via-slate-950/80'>
+          <h3 className='bg-gradient-to-r from-yellow-500 to-red-500 bg-clip-text px-4 text-2xl font-extrabold text-transparent'>
             {title}
           </h3>
         </div>
       </div>
-
-      <p className='px-4'>{description}</p>
-
+      <span className='space-x-1 px-4'>
+        {techs.map((tech) => (
+          <Badge key={tech.id} {...tech} />
+        ))}
+      </span>
       <div className='flex items-center space-x-6 px-4'>
         <a
           className='group flex space-x-2 text-gray-950/50 underline transition hover:text-gray-950 dark:text-gray-50/50 dark:hover:text-gray-50'
