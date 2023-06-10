@@ -23,12 +23,12 @@ const Banner = () => {
 
         <ul className='flex items-center space-x-5'>
           <li>
-            <a href='/#'>
+            <a href='https://www.linkedin.com/in/ivaneconomo/' target='_blank' rel="noreferrer">
               <LinkedInIcon />
             </a>
           </li>
           <li>
-            <a href='/#'>
+            <a href='https://github.com/ivaneconomo/' target='_blank' rel="noreferrer">
               <GitHubIcon />
             </a>
           </li>
