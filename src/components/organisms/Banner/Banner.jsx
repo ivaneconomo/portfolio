@@ -1,4 +1,4 @@
-import DownloadButton from '../../atoms/DownloadButton/DownLoadButton';
+import ButtonDownload from '../../atoms/ButtonDownload/ButtonDownload';
 import { GitHubIcon, LinkedInIcon } from '../../atoms/icons/icons';
 
 const Banner = () => {
@@ -19,8 +19,7 @@ const Banner = () => {
       </div>
 
       <div className='flex items-center space-x-5'>
-        <DownloadButton />
-
+        <ButtonDownload />
         <ul className='flex items-center space-x-5'>
           <li>
             <a
