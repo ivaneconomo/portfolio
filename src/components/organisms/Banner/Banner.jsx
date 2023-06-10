@@ -1,8 +1,5 @@
-import {
-  DownloadCVIcon,
-  GitHubIcon,
-  LinkedInIcon,
-} from '../../atoms/icons/icons';
+import DownloadButton from '../../atoms/DownloadButton/DownLoadButton';
+import { GitHubIcon, LinkedInIcon } from '../../atoms/icons/icons';
 
 const Banner = () => {
   return (
@@ -22,10 +19,7 @@ const Banner = () => {
       </div>
 
       <div className='flex items-center space-x-5'>
-        <button className='flex items-center space-x-1 rounded bg-pistachio-500 px-2 py-0.5 transition hover:bg-pistachio-600 active:ring-1 dark:hover:bg-pistachio-200'>
-          <DownloadCVIcon />
-          <span className='text-gray-950'>Descargar CV</span>
-        </button>
+        <DownloadButton />
 
         <ul className='flex items-center space-x-5'>
           <li>
