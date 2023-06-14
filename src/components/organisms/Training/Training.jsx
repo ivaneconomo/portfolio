@@ -1,14 +1,12 @@
 const Training = () => {
   return (
     <section className='container space-y-8'>
-      <h2 className='text-2xl font-bold text-gray-950/60 dark:text-gray-50/60'>
+      <h2 className='text-3xl text-gray-950 dark:text-gray-50'>
         Formación como desarrollador
       </h2>
-      <div className='space-y-2'>
-        <p className='text-gray-950 dark:text-gray-50'>
-          Completé un bootcamp intensivo en desarrollo web (2022-2023).
-        </p>
-        <p className='text-gray-950 dark:text-gray-50'>
+      <div className='space-y-2 text-xl text-gray-950/70 dark:text-gray-50/70'>
+        <p>Completé un bootcamp intensivo en desarrollo web (2022-2023).</p>
+        <p>
           Durante el programa, participé en tres proyectos utilizando
           tecnologías como{' '}
           <span className='font-semibold text-orange-500'>HTML</span>,{' '}
@@ -20,11 +18,11 @@ const Training = () => {
           </span>
           .
         </p>
-        <p className='text-gray-950 dark:text-gray-50'>
+        <p>
           Estos proyectos me permitieron aplicar de manera efectiva mis
           conocimientos y habilidades adquiridas en un entorno práctico.
         </p>
-        <p className='text-gray-950 dark:text-gray-50'>
+        <p>
           Además, adquirí experiencia en metodologías ágiles (SCRUM) y
           desarrollé habilidades de trabajo en equipo.
         </p>

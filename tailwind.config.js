@@ -13,11 +13,11 @@ export default {
       center: true,
       padding: {
         DEFAULT: '1rem',
-        'xs': '1.5rem',
+        'xs': '1rem',
         sm: '2rem',
-        lg: '4rem',
-        xl: '8rem',
-        '2xl': '12rem',
+        lg: '6rem',
+        xl: '12rem',
+        '2xl': '18rem',
       },
     },
     extend: {

@@ -1,7 +1,7 @@
 export const BarsMenuIcon = () => {
   return (
     <svg
-      className='h-8 w-8 cursor-pointer stroke-gray-950 transition  hover:stroke-gray-600 dark:stroke-gray-50 dark:hover:stroke-gray-400'
+      className='h-8 w-8 cursor-pointer stroke-gray-950  hover:stroke-gray-600 dark:stroke-gray-50 dark:hover:stroke-gray-400'
       strokeWidth={1.5}
       viewBox='0 0 24 24'
       xmlns='http://www.w3.org/2000/svg'
@@ -55,7 +55,7 @@ export const ThemeSunIcon = () => {
 export const LinkedInIcon = () => {
   return (
     <svg
-      className='h-6 w-6 fill-gray-950/50 transition hover:fill-[#0A66C2] dark:fill-gray-50/50 dark:hover:fill-[#0A66C2]'
+      className='h-6 w-6 fill-gray-950/50 hover:fill-[#0A66C2] dark:fill-gray-50/50 dark:hover:fill-[#0A66C2]'
       role='img'
       viewBox='0 0 24 24'
       xmlns='http://www.w3.org/2000/svg'
@@ -69,7 +69,7 @@ export const LinkedInIcon = () => {
 export const GitHubIcon = () => {
   return (
     <svg
-      className='h-6 w-6 fill-gray-950/50 transition hover:fill-[#181717] group-hover:fill-[#181717] dark:fill-gray-50/50 dark:hover:fill-gray-50 dark:group-hover:fill-gray-50'
+      className='h-6 w-6 fill-gray-950/50 hover:fill-[#181717] group-hover:fill-[#181717] dark:fill-gray-50/50 dark:hover:fill-gray-50 dark:group-hover:fill-gray-50'
       role='img'
       viewBox='0 0 24 24'
       xmlns='http://www.w3.org/2000/svg'
@@ -83,7 +83,7 @@ export const GitHubIcon = () => {
 export const WebIcon = () => {
   return (
     <svg
-      className='h-6 w-6 fill-none stroke-gray-950/50 transition group-hover:stroke-blue-500 dark:stroke-gray-50/50'
+      className='h-6 w-6 fill-none stroke-gray-950/50 group-hover:stroke-blue-500 dark:stroke-gray-50/50'
       strokeWidth={1.5}
       viewBox='2 1 21 21'
       xmlns='http://www.w3.org/2000/svg'

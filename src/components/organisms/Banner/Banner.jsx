@@ -1,45 +1,18 @@
-import ButtonDownload from '../../atoms/ButtonDownload/ButtonDownload';
-import { GitHubIcon, LinkedInIcon } from '../../atoms/icons/icons';
+import SocialNav from '../../molecules/SocialNav/SocialNav';
 
 const Banner = () => {
   return (
-    <section className='container flex flex-col space-y-6'>
-      <div>
-        <div className='space-y-2'>
-          <span className='text-2xl font-bold text-gray-950 dark:text-gray-50 sm:text-3xl'>
-            ¡Hola! Soy
-          </span>
-          <h1 className='bg-gradient-to-r from-sky-500 to-pistachio-500 bg-clip-text text-4xl font-bold text-transparent sm:text-5xl'>
+    <section className='container'>
+      <div className='flex flex-col items-center justify-center rounded bg-slate-50/80 py-4 dark:bg-slate-950/80 md:py-16 shadow-sm'>
+        <div>
+          <h1 className='lg:tet-8xl bg-gradient-to-r from-pistachio-500 to-cyan-500 bg-clip-text text-4xl font-bold text-transparent xs:text-5xl sm:text-6xl md:mb-2 md:text-7xl'>
             Iván Ecónomo
           </h1>
-          <h2 className='text-xl text-gray-950/80 dark:text-gray-50/80 sm:text-2xl'>
+          <h2 className='lg:tet-5xl mb-8 text-xl font-light xs:text-2xl sm:text-3xl md:text-4xl'>
             Desarrollador web fullstack
           </h2>
+          <SocialNav />
         </div>
-      </div>
-
-      <div className='flex items-center space-x-5'>
-        <ButtonDownload />
-        <ul className='flex items-center space-x-5'>
-          <li>
-            <a
-              href='https://www.linkedin.com/in/ivaneconomo/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <LinkedInIcon />
-            </a>
-          </li>
-          <li>
-            <a
-              href='https://github.com/ivaneconomo/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <GitHubIcon />
-            </a>
-          </li>
-        </ul>
       </div>
     </section>
   );
