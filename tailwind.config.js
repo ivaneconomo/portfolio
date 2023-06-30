@@ -6,14 +6,14 @@ export default {
   content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
     screens: {
-      'xs': '412px',
+      xs: '412px',
       ...defaultTheme.screens,
     },
     container: {
       center: true,
       padding: {
         DEFAULT: '1rem',
-        'xs': '1rem',
+        xs: '1rem',
         sm: '2rem',
         lg: '6rem',
         xl: '12rem',
