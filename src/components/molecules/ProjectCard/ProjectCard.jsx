@@ -11,7 +11,7 @@ const ProjectCard = ({
   websiteLink,
 }) => {
   return (
-    <article className='flex flex-col rounded bg-slate-50 shadow-sm dark:bg-slate-950'>
+    <article className='flex flex-col rounded bg-slate-50 shadow dark:bg-slate-950'>
       <div className='relative rounded-t'>
         <div className='relative h-full'>
           <img
@@ -39,7 +39,7 @@ const ProjectCard = ({
           {description}
         </p>
       </div>
-      <div className='space-x-4 px-4 mt-auto mb-0 pb-4'>
+      <div className='mb-0 mt-auto space-x-4 px-4 pb-4'>
         <a
           className='text-gray-950/50 underline hover:text-gray-950 dark:text-gray-50/50 dark:hover:text-gray-50'
           href={githubLink}

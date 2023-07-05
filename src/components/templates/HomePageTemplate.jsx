@@ -1,6 +1,7 @@
 import Banner from '../organisms/Banner/Banner';
 import Training from '../organisms/Training/Training';
 import Projects from '../organisms/Projects/Projects';
+import Technologies from '../organisms/Technologies/Technologies';
 
 const HomePageTemplate = () => {
   return (
@@ -8,6 +9,7 @@ const HomePageTemplate = () => {
       <Banner />
       <Training />
       <Projects />
+      <Technologies />
     </div>
   );
 };
