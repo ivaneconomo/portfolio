@@ -3,9 +3,9 @@ import { GitHubIcon, LinkedInIcon } from '../../atoms/icons/icons';
 
 const SocialNav = () => {
   return (
-    <div className='flex items-center gap-5'>
+    <div className='flex items-center gap-4'>
       <ButtonDownload />
-      <ul className='flex items-center gap-5'>
+      <ul className='flex items-center gap-4'>
         <li>
           <a
             href='https://www.linkedin.com/in/ivaneconomo/'

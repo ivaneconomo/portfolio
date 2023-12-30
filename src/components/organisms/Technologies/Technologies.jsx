@@ -19,7 +19,7 @@ import {
 
 const Technologies = () => {
   return (
-    <div className='container space-y-8'>
+    <section id='tecnologias' className='container space-y-8'>
       <h2 className='text-3xl font-semibold'>Herramientas y Tecnologías </h2>
       <div className='flex flex-wrap gap-4 lg:justify-between'>
         <HTMLIcon />
@@ -43,7 +43,7 @@ const Technologies = () => {
 
         <SlackIcon />
       </div>
-    </div>
+    </section>
   );
 };
 export default Technologies;

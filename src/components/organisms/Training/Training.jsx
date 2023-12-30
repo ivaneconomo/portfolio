@@ -1,10 +1,10 @@
 const Training = () => {
   return (
-    <section className='container space-y-8'>
+    <section id="formacion" className='container space-y-8'>
       <h2 className='text-3xl font-semibold text-gray-950 dark:text-gray-50'>
         Formación como desarrollador
       </h2>
-      <div className='space-y-2 text-xl text-gray-950/70 dark:text-gray-50/70'>
+      <div className='space-y-2 text-xl text-gray-950/85 dark:text-gray-50/85'>
         <p>Completé un bootcamp intensivo en desarrollo web (2022-2023).</p>
         <p>
           Durante el programa, participé en tres proyectos utilizando

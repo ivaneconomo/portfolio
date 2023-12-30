@@ -30,13 +30,13 @@ const BarsMenu = () => {
         <nav className='container flex flex-col items-end justify-center md:hidden'>
           <ul className='my-4 max-w-fit space-y-4 text-end text-gray-950 dark:text-gray-50'>
             <li className='hover:text-gray-600 dark:hover:text-gray-400'>
-              <a href='/#'>Formación</a>
+              <a href='#formacion'>Formación</a>
             </li>
             <li className='hover:text-gray-600 dark:hover:text-gray-400'>
-              <a href='/#'>Proyectos</a>
+              <a href='#proyectos'>Proyectos</a>
             </li>
             <li className='hover:text-gray-600 dark:hover:text-gray-400'>
-              <a href='/#'>Tecnologías</a>
+              <a href='#tecnologias'>Tecnologías</a>
             </li>
           </ul>
           <ToggleTheme />

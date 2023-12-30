@@ -3,7 +3,7 @@ import projects from '../../../data/projects.js';
 
 const Projects = () => {
   return (
-    <section className='container space-y-8'>
+    <section id='proyectos' className='container space-y-8'>
       <h2 className='text-3xl font-semibold text-gray-950 dark:text-gray-50'>
         Proyectos en los que participé
       </h2>
